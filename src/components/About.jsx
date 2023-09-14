@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -44,14 +44,10 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 0.3, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a passionate computer science student, I'm driven to explore the world of data analysis and thrive in crafting visually appealing front-end experiences. Proficient in ReactJS and JavaScript, I excel in full-stack web development and am committed to lifelong learning to stay at the forefront of technology. Let's connect to discuss data, web development, and more!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

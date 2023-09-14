@@ -1,28 +1,28 @@
 import {
    mobile,
    backend,
-   creator,
+   data,
    web,
    javascript,
    typescript,
    html,
    css,
    reactjs,
-   redux,
+   php,
    tailwind,
    nodejs,
    mongodb,
    git,
    figma,
-   docker,
-   meta,
-   starbucks,
-   tesla,
-   shopify,
-   carrent,
-   jobit,
-   tripguide,
+   uOttawa,
+   uOttawa1,
+   BHSoft,
    threejs,
+   project_littleEye,
+   project_broscafe,
+   project_roomBookingSystem,
+   sbc,
+   data_analysis,
  } from "../assets";
  
  export const navLinks = [
@@ -42,20 +42,20 @@ import {
  
  const services = [
    {
-     title: "Web Developer",
+     title: "Full-stack Web Developer",
      icon: web,
    },
    {
-     title: "React Native Developer",
+     title: "Software Developer",
      icon: mobile,
    },
    {
-     title: "Backend Developer",
+     title: "UI Developer",
      icon: backend,
    },
    {
-     title: "Content Creator",
-     icon: creator,
+     title: "Data Analyst",
+     icon: data,
    },
  ];
  
@@ -81,8 +81,8 @@ import {
      icon: reactjs,
    },
    {
-     name: "Redux Toolkit",
-     icon: redux,
+     name: "PHP",
+     icon: php,
    },
    {
      name: "Tailwind CSS",
@@ -108,158 +108,173 @@ import {
      name: "figma",
      icon: figma,
    },
+  //  {
+  //    name: "docker",
+  //    icon: docker,
+  //  },
    {
-     name: "docker",
-     icon: docker,
+     name: "uOttawa",
+     icon: uOttawa1,
    },
  ];
  
  const experiences = [
    {
-     title: "React.js Developer",
-     company_name: "Starbucks",
-     icon: starbucks,
-     iconBg: "#383E56",
-     date: "March 2020 - April 2021",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
-   {
-     title: "React Native Developer",
-     company_name: "Tesla",
-     icon: tesla,
+     title: "Computing Analyst Assistant",
+     company_name: "Univeristy of Ottawa",
+     icon: uOttawa,
      iconBg: "#E6DEDD",
-     date: "Jan 2021 - Feb 2022",
+     date: "May 2023 - August 2023 | Contract Full-time",
      points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
+       "Streamlined app installer storage to GitLab, enhancing version control and enabling efficient updates.",
+       "Developed and customized 100+ app installers using PSAppDeployToolkit, including functionalities like disabling updates and configuring unique files.",
+       "Efficiently coordinated end-to-end deployment through SCCM, ensuring seamless integration and widespread distribution."
      ],
    },
    {
-     title: "Web Developer",
-     company_name: "Shopify",
-     icon: shopify,
-     iconBg: "#383E56",
-     date: "Jan 2022 - Jan 2023",
-     points: [
-       "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
-     ],
-   },
-   {
-     title: "Full stack Developer",
-     company_name: "Meta",
-     icon: meta,
+     title: "Junior IT Technician/ Programmer",
+     company_name: "Univeristy of Ottawa",
+     icon: uOttawa,
      iconBg: "#E6DEDD",
-     date: "Jan 2023 - Present",
+     date: "October 2022 - April 2023 | Contract Part-time",
+     points: [
+      "Provide technical support to academic staff, including setting up, configuring, diagnosing, and repairing hardware, operating systems, and software.",
+      "Develop and implement SCCM scripts for efficient mass deployment of software."
+     ],
+   },
+   {
+     title: "ReactJS Developer Intern",
+     company_name: "Bac Ha Software Co., Ltd.",
+     icon: BHSoft,
+     iconBg: "#E6DEDD",
+     date: "Jun 2022 - August 2022",
      points: [
        "Developing and maintaining web applications using React.js and other related technologies.",
-       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-       "Implementing responsive design and ensuring cross-browser compatibility.",
-       "Participating in code reviews and providing constructive feedback to other developers.",
+       "Collaborate with cross-functional teams to develop and maintain front-end web applications using ReactJS, Redux Thunk, and Redux Saga.",
+       "Apply TypeScript and TailwindCSS to improve coding efficiency in large-scale projects.",
+       "Contribute to the design and development of responsive, user-friendly web interfaces and graphic content for events."
      ],
    },
  ];
  
- const testimonials = [
+ const achievements = [
    {
-     testimonial:
-       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-     name: "Sara Lee",
-     designation: "CFO",
-     company: "Acme Co",
-     image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Google Data Analytics Professional Certificate",
+    achievement:
+      "Completed Google's rigorous data analytics program, mastering essential data analysis tools, techniques, and methodologies. Proficient in data visualization, data cleaning, SQL, and R. Acquired practical skills to analyze and interpret data, enabling data-driven decision-making for improved business outcomes.",
+    tags: [
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "R",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Excel",
+        color: "pink-text-gradient",
+      },
+      {
+       name: "Data Visualization",
+       color: "yellow-text-gradient",
+     },
+    ],
+    image: data_analysis,
+    source_code_link: "https://www.coursera.org/account/accomplishments/professional-cert/FDGDKAW4S64F",
    },
    {
-     testimonial:
-       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-     name: "Chris Brown",
-     designation: "COO",
-     company: "DEF Corp",
-     image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Top 40 Finalist | SBC 2021",
+    achievement:
+      "Top 40 Finalist in the Social Business Creation competition organized by HEC Montréal. Our team embarked on a mission to enhance the sleep quality of Vietnamese individuals by designing a cutting-edge smart pillow. This endeavor not only involved product innovation but also the establishment of a sustainable social business model.",
+    tags: [
+      {
+        name: "Entrepeneurship",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Analysis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Teamwork",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sbc,
+    source_code_link: "https://socialbusinesscreation.hec.ca/competing-projects/SBC2021_131_VN_KOSTRE/?fbclid=IwAR06zIH_ppirIZtWN9Xh8ptVtjmbgKRznjdDTyIuGbZyCu3TaIf-r2lw5L4",
    },
-   {
-     testimonial:
-       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-     name: "Lisa Wang",
-     designation: "CTO",
-     company: "456 Enterprises",
-     image: "https://randomuser.me/api/portraits/women/6.jpg",
-   },
+   
  ];
  
  const projects = [
    {
-     name: "Car Rent",
+     name: "LittleEye | Hackathon Project",
      description:
-       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+       "A web application, Little Eye, that helps blind and colorblind individuals identify objects and colors using voice commands. Utilize Python and ReactJS to process data from Google Vision and Google Cloud Speech-to-Text APIs.",
      tags: [
        {
-         name: "react",
+         name: "Python",
          color: "blue-text-gradient",
        },
        {
-         name: "mongodb",
+         name: "ReactJS",
          color: "green-text-gradient",
        },
        {
-         name: "tailwind",
+         name: "Firebase",
          color: "pink-text-gradient",
        },
+       {
+        name: "Google APIs",
+        color: "yellow-text-gradient",
+      },
      ],
-     image: carrent,
-     source_code_link: "https://github.com/",
+     image: project_littleEye,
+     source_code_link: "https://github.com/ThangMinhCao/little-eye",
    },
    {
-     name: "Job IT",
+     name: "Room Booking System | School Project",
      description:
-       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+       "A full-stack web application, implementing a hotel booking system with selection, payment processing, and reservation tracking features.",
      tags: [
        {
-         name: "react",
+         name: "PHP",
          color: "blue-text-gradient",
        },
        {
-         name: "restapi",
+         name: "SQL",
          color: "green-text-gradient",
        },
        {
-         name: "scss",
+         name: "JavaScript",
          color: "pink-text-gradient",
        },
      ],
-     image: jobit,
-     source_code_link: "https://github.com/",
+     image: project_roomBookingSystem,
+     source_code_link: "https://github.com/minhlqBHsoft/our-mansion",
    },
    {
-     name: "Trip Guide",
+     name: "Restaurant Management System | School Project",
      description:
-       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+       "An Android application, implementing a restaurant management system. User can create online menu, online store which allows clients to order online, track sold items, and much more.",
      tags: [
        {
-         name: "nextjs",
+         name: "Java",
          color: "blue-text-gradient",
        },
        {
-         name: "supabase",
+         name: "Firebase",
          color: "green-text-gradient",
        },
        {
-         name: "css",
+         name: "Android Studio",
          color: "pink-text-gradient",
        },
      ],
-     image: tripguide,
-     source_code_link: "https://github.com/",
+     image: project_broscafe,
+     source_code_link: "https://github.com/uOttawaSEGA2022/projet-broscafe",
    },
  ];
  
- export { services, technologies, experiences, testimonials, projects };
+ export { services, technologies, experiences, achievements, projects };
