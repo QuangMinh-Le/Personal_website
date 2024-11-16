@@ -1,13 +1,12 @@
 # Welcome to Minh's personal portfolio
 ## Technologies behind the portfolio:
 
-<img src="src\assets\tech\reactjs.png" width="300" alt="reactjs"/>
+<img src="src\assets\tech\reactjs.png" width="30" alt="reactjs"/>
 
 ## Set-up environment:
 
 ### Tailwind CSS:
 <code>npm install -D tailwindcss
-
 npx tailwindcss init
 </code>
 
