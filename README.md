@@ -1,6 +1,7 @@
 # Welcome to Minh's personal portfolio
 ## Technologies behind the portfolio:
-<img src="src\assets\tech\reactjs.png" width="30" />
+
+<img src="src\assets\tech\reactjs.png" width="300" alt="reactjs"/>
 
 ## Set-up environment:
 
