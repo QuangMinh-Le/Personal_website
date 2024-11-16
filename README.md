@@ -1,8 +1,23 @@
-# React + Vite
+# Welcome to Minh's personal portfolio
+## Technologies behind the portfolio:
+![React][src\assets\tech\reactjs.png]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Set-up environment:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tailwind CSS:
+<code>
+npm install -D tailwindcss
+
+npx tailwindcss init
+</code>
+
+### Install dependancies:
+<code>
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+</code>
+
+### Run on localhost: 
+<code>
+npm run dev
+</code>

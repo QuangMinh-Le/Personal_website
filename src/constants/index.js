@@ -13,6 +13,7 @@ import {
    nodejs,
    mongodb,
    git,
+   docker,
    figma,
    uOttawa,
    uOttawa1,
@@ -23,6 +24,7 @@ import {
    project_roomBookingSystem,
    sbc,
    data_analysis,
+   CMS,
  } from "../assets";
  
  export const navLinks = [
@@ -50,11 +52,11 @@ import {
      icon: mobile,
    },
    {
-     title: "UI Developer",
+     title: "AI gonna take over?",
      icon: backend,
    },
    {
-     title: "Data Analyst",
+     title: "At least I am locked in!",
      icon: data,
    },
  ];
@@ -108,10 +110,10 @@ import {
      name: "figma",
      icon: figma,
    },
-  //  {
-  //    name: "docker",
-  //    icon: docker,
-  //  },
+   {
+     name: "docker",
+     icon: docker,
+   },
    {
      name: "uOttawa",
      icon: uOttawa1,
@@ -120,11 +122,35 @@ import {
  
  const experiences = [
    {
+     title: "IT and Project Assistant",
+     company_name: "Canadian Mathematical Society",
+     icon: CMS,
+     iconBg: "#E6DEDD",
+     date: "Sep 2024 - Dec 2024 | Co-op",
+     points: [
+       "Took ownership over the development and maintenance of CMS web applications, utilizing Python, Django, and Docker to deliver high-quality, tested, and operable code.",
+       "Built proficiency in Linux for system administration and command-line operations (WSL2).",
+       "Created a custom mobile app using Flutter Flow and JavaScript, allowing 500+ speakers to track their own schedules during the event."
+     ],
+   },
+   {
+     title: "DevOps Engineer, QA Engineer",
+     company_name: "Univeristy of Ottawa",
+     icon: uOttawa,
+     iconBg: "#E6DEDD",
+     date: "Jan 2024 - Apr 2024 | Co-op",
+     points: [
+       "Executed end-to-end technical tasks by migrating 20 service APIs from Java-based ESB to Anansi format with Node.js, producing well-documented and tested code that improved API reliability.",
+       "Assessed Vector Database Qdrant for AI migration readiness, supporting future AI capabilities.",
+       "Worked with SQL Server and Oracle Server for data management and supported QA processes with Postman to uphold API reliability and performance."
+     ],
+   },
+   {
      title: "Computing Analyst Assistant",
      company_name: "Univeristy of Ottawa",
      icon: uOttawa,
      iconBg: "#E6DEDD",
-     date: "May 2023 - August 2023 | Contract Full-time",
+     date: "May 2023 - Aug 2023 | Contract Full-time",
      points: [
        "Streamlined app installer storage to GitLab, enhancing version control and enabling efficient updates.",
        "Developed and customized 100+ app installers using PSAppDeployToolkit, including functionalities like disabling updates and configuring unique files.",
@@ -136,7 +162,7 @@ import {
      company_name: "Univeristy of Ottawa",
      icon: uOttawa,
      iconBg: "#E6DEDD",
-     date: "October 2022 - April 2023 | Contract Part-time",
+     date: "Oct 2022 - Apr 2023 | Contract Part-time",
      points: [
       "Provide technical support to academic staff, including setting up, configuring, diagnosing, and repairing hardware, operating systems, and software.",
       "Develop and implement SCCM scripts for efficient mass deployment of software."
@@ -147,7 +173,7 @@ import {
      company_name: "Bac Ha Software Co., Ltd.",
      icon: BHSoft,
      iconBg: "#E6DEDD",
-     date: "Jun 2022 - August 2022",
+     date: "Jun 2022 - Aug 2022",
      points: [
        "Developing and maintaining web applications using React.js and other related technologies.",
        "Collaborate with cross-functional teams to develop and maintain front-end web applications using ReactJS, Redux Thunk, and Redux Saga.",
@@ -234,6 +260,31 @@ import {
      source_code_link: "https://github.com/ThangMinhCao/little-eye",
    },
    {
+     name: "Expense Control Project",
+     description:
+       "A web application developed with the Django framework, PostgreSQL database, and Bootstrap for responsive design. Enables users to track personal finances, add expenses and income, monitor spending patterns, and make adjustments to manage their budget effectively.",
+     tags: [
+       {
+         name: "Django",
+         color: "blue-text-gradient",
+       },
+       {
+         name: "JavaScript",
+         color: "green-text-gradient",
+       },
+       {
+         name: "Bootstrap",
+         color: "pink-text-gradient",
+       },
+       {
+         name: "PostgreSQL",
+         color: "yellow-text-gradient",
+       },
+     ],
+     image: project_roomBookingSystem,
+     source_code_link: "https://github.com/QuangMinh-Le/expense-control-project",
+   },
+   {
      name: "Room Booking System | School Project",
      description:
        "A full-stack web application, implementing a hotel booking system with selection, payment processing, and reservation tracking features.",
@@ -252,7 +303,7 @@ import {
        },
      ],
      image: project_roomBookingSystem,
-     source_code_link: "https://github.com/minhlqBHsoft/our-mansion",
+     source_code_link: "https://github.com/QuangMinh-Le/our-mansion",
    },
    {
      name: "Restaurant Management System | School Project",

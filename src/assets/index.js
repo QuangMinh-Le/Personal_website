@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import uOttawa from "./company/uOttawa.png";
 import uOttawa1 from "./company/uOttawa1.png";
 import BHSoft from "./company/BHSoft.png";
+import CMS from "./company/CMS.png";
 
 // Projects
 import project_broscafe from "./project/project_broscafe.png"
@@ -76,4 +77,5 @@ export {
   project_roomBookingSystem,
   sbc,
   data_analysis,
+  CMS,
 };
