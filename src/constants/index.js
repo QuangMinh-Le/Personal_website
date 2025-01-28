@@ -21,6 +21,8 @@ import {
   project_littleEye,
   project_broscafe,
   project_roomBookingSystem,
+  project_hackthefllush,
+  project_expensecontrol,
   sbc,
   data_analysis,
   CMS,
@@ -38,6 +40,12 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "Resume",
+    title: "Resume",
+    external: true, 
+    url: "public/documents/QuangMinhLe-resume.pdf"
   },
 ];
 
@@ -234,7 +242,32 @@ const achievements = [
 
 const projects = [
   {
-    name: "LittleEye | Hackathon Project",
+    name: "Hack The Fllush | Hackathon Project | uottaHack 2025",
+    description:
+      "Real-time IoT web app using sensor data to track restroom availability, powered by Solace PubSub+ for instant updates, with a responsive React interface, optimizing real-time data streaming and user interaction",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Solace PubSub+ Cloud",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: project_hackthefllush,
+    source_code_link: "https://github.com/QuangMinh-Le/uottahack2025",
+  },
+  {
+    name: "LittleEye | Hackathon Project | Hack The Hill 2023",
     description:
       "A web application, Little Eye, that helps blind and colorblind individuals identify objects and colors using voice commands. Utilize Python and ReactJS to process data from Google Vision and Google Cloud Speech-to-Text APIs.",
     tags: [
@@ -256,7 +289,7 @@ const projects = [
       },
     ],
     image: project_littleEye,
-    source_code_link: "https://github.com/ThangMinhCao/little-eye",
+    source_code_link: "https://devpost.com/software/little-eye",
   },
   {
     name: "Expense Control Project",
@@ -280,7 +313,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: project_roomBookingSystem,
+    image: project_expensecontrol,
     source_code_link: "https://github.com/QuangMinh-Le/expense-control-project",
   },
   {

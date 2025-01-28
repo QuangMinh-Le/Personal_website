@@ -8,6 +8,7 @@ import linkedin from "./linkedin.svg"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.png";
+import resume from "./resume.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -36,6 +37,8 @@ import CMS from "./company/CMS.png";
 import project_broscafe from "./project/project_broscafe.png"
 import project_littleEye from "./project/project_littleEye.png"
 import project_roomBookingSystem from "./project/project_roomBookingSystem.png"
+import project_hackthefllush from "./project/project_hackthefllush.png"
+import project_expensecontrol from "./project/project_expensecontrol.png"
 
 //Achievements
 import  sbc  from "./achievement/sbc.png";
@@ -49,6 +52,7 @@ export {
   web,
   github,
   linkedin,
+  resume,
   menu,
   close,
   link,
@@ -75,6 +79,8 @@ export {
   project_broscafe,
   project_littleEye,
   project_roomBookingSystem,
+  project_hackthefllush,
+  project_expensecontrol,
   sbc,
   data_analysis,
   CMS,
